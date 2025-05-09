@@ -11,7 +11,7 @@ from typing import Optional  # Import Optional for type hints
 load_dotenv()
 
 # Database setup (Neon DB connection)
-DATABASE_URL = "postgresql://neondb_owner:npg_wRf52TnHZqyz@ep-tight-glitter-a4rv8r0o-pooler.us-east-1.aws.neon.tech/neondb?sslmode=require"
+DATABASE_URL = ""
 
 if not DATABASE_URL:
     raise ValueError("DATABASE_URL environment variable not set")
